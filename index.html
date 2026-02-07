@@ -50,13 +50,20 @@ section {
     padding:30px;
     border-radius:22px;
 
-    background: rgba(255,255,255,0.55);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    /* More transparent */
+    background: rgba(255,255,255,0.35);
 
-    border: 1px solid rgba(255,255,255,0.35);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    /* Stronger frosted glass blur */
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    /* More visible glass edges */
+    border: 1px solid rgba(255,255,255,0.45);
+
+    /* Deeper floating shadow */
+    box-shadow: 0 14px 40px rgba(0,0,0,0.18);
 }
+
 
 h2 {
     font-family:'Playfair Display', serif;
